@@ -1,0 +1,175 @@
+[
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Leonercio",
+        "SobrenomeCliente" : "Goesfield",
+        "Telefone" : "(95) 91234-5678",
+        "Logradouro" : "Rua Exemplo",
+        "NumCasa" : "92",
+        "Bairro" : "Centro",
+        "statusPedido": "0",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    },
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Fulano2",
+        "statusPedido": "1",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    },
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Fulano3",
+        "statusPedido": "2",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    },
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Fulano4",
+        "statusPedido": "3",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    },
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Fulano5",
+        "statusPedido": "4",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    },
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Fulano6",
+        "statusPedido": "0",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    },
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Fulano7",
+        "statusPedido": "1",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    },
+    {
+        "numPedido": "#00000",
+        "nomeCliente": "Fulano8",
+        "statusPedido": "1",
+        "FormaPagamento" : "(Cartão de Crédito)",
+        "Valor" : "R$ 50,00",
+        "ValorTotal" : "R$ 55,00",
+        "ValorEntrega" : "R$ 5,00",
+        "Produto" : "Almoço Executivo",
+        "Descricao" : "Peixe a Milanesa",
+        "Acompanhamentos" : {
+            "Ac1" : "Arroz Integral (1x)",
+            "Ac2" : "Feijao Preto (1x)",
+            "Ac3" : "Banana Frita (1x)",
+            "Ac4" : "Macaxeira Cozida (1x)",
+            "Ac5" : "Salada Cozida (1x)"
+        },
+        "Quantidade" : "1",
+        "dataEntrega" : "17/02/2021",
+        "horaEntrega": "15:39"
+    }
+]
