@@ -59,7 +59,6 @@ const estado = [
 
 export default props => {
     const navigation = useNavigation()
-    i = parseInt(props.statusPedido)
 
     return(
         <View style={{flex: 1, width: '100%', backgroundColor: '#E9EAEB'}}>
@@ -193,7 +192,7 @@ export default props => {
                                 shadowColor: '#FE671F4D',
                                 elevation: 3
                             }}
-                                onPress={() => navigation.navigate(estado[0].detalhe)}
+                                onPress={() => navigation.navigate("Pedidos")}
                             >
                                <Image source={require('../img/Grupo1202.png')}/>
                             </TouchableOpacity>
@@ -206,7 +205,7 @@ export default props => {
                                 shadowColor: '#FE671F4D',
                                 elevation: 3
                             }}
-                                onPress={() => navigation.navigate(estado[0].detalhe)}
+                                onPress={() => navigation.navigate("Pedidos")}
                             >
                                 <Image source={require('../img/Grupo1198.png')}/>
                             </TouchableOpacity>
@@ -242,6 +241,7 @@ const styles = StyleSheet.create({
         width: '95%',
         height: 46,
         marginTop: 10,
+        paddingLeft: 5,
         backgroundColor: '#ffffff',
         borderRadius: 10,
         shadowColor: '#FE671F4D',

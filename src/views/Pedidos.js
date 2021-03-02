@@ -1,5 +1,6 @@
 import React from 'react'
 import { Image, View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
+import Detalhe from '../components/Detalhe'
 import Pedido from '../components/Pedido'
 
 const listPedidos = require('../infoPedidos.json')
@@ -13,7 +14,29 @@ const quadroPedido = (listPedidos.map(
     />
     
 ))
+const detalhamento = (listPedidos.map(
+    p => <Detalhe 
+        numPedido = {p.numPedido}
+        nomeCliente = {p.nomeCliente}
+        SobrenomeCliente = {p.SobrenomeCliente}
+        Telefone = {p.Telefone}
+        Logradouro = {p.Logradouro}
+        NumCasa = {p.NumCasa}
+        Bairro ={p.Bairro}
+        statusPedido ={p.statusPedido}
+        FormaPagamento ={p.FormaPagamento}
+        Valor ={p.Valor}
+        ValorTotal ={p.ValorTotal}
+        ValorEntrega ={p.dataEntrega}
+        Produto ={p.Produto}
+        Descricao ={p.Descricao}
+        Acompanhamentos ={p.Acompanhamentos}
+        Quantidade ={p.Quantidade}
+        dataEntrega ={p.dataEntrega}
+        horaEntrega ={p.horaEntrega}
+    />
 
+))
 export default () => {
 
     return(
@@ -93,7 +116,9 @@ export default () => {
                     elevation: 3
 
                 }}>
-                    {quadroPedido}                 
+                    <View style={{alignItems: 'center'}}>
+                        {quadroPedido}
+                    </View>                 
                 </ScrollView>
             </View>
 
@@ -122,6 +147,7 @@ const styles = StyleSheet.create({
         width: '95%',
         height: 46,
         marginTop: 10,
+        paddingLeft: 5,
         backgroundColor: '#ffffff',
         borderRadius: 10,
         shadowColor: '#FE671F4D',

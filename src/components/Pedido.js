@@ -1,6 +1,9 @@
 import React from "react";
 import { Text, TouchableOpacity, View, StyleSheet, Image, Modal } from "react-native";
 import { useNavigation } from '@react-navigation/native'
+import Detalhe from './Detalhe'
+
+
 
 const estado = [
     {
@@ -55,6 +58,7 @@ const estado = [
     }
 ]
 
+
 export default function(props){
     
     numPedido = props.numPedido
@@ -94,7 +98,7 @@ export default function(props){
                         <View style = {styles.imagens}>
                             <Image source = {estado[i].imgClock}/>
                         </View>
-                        <Text style= {styles.txt}>Enntregar até {horaEntrega}</Text>
+                        <Text style= {styles.txt}>Entregar até {horaEntrega}</Text>
 
                     </View>
 

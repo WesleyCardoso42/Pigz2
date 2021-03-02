@@ -10,34 +10,36 @@ export default props => {
 
                 <Image style={styles.imagem} source = {require('../img/LogoPigz.png')} />
 
-                    <View style={{width: 335}}>
-                        <Text style={styles.txt,{fontWeight: 'bold', fontSize: 18, bottom: 19}}>Entrar</Text>
-                        <Text style={{fontSize: 14, bottom: 2}}>Email ou Telefone</Text>
-                    </View>
+                <View style={{width: 335}}>
+                    <Text style={{fontWeight: 'bold', fontSize: 18, bottom: 19, marginLeft: 5}}>Entrar</Text>
+                    <Text style={{fontSize: 14, bottom: 2, marginLeft: 5}}>Email ou Telefone</Text>
+                </View>
+                <TextInput style={styles.inputs} placeholder = "example@pigz.com.br"></TextInput>
 
-                    <TextInput style={styles.inputs} placeholder = "example@pigz.com.br"></TextInput>
+                <View style={{width: 335}}>
+                    <Text style={{fontSize: 14,bottom: 2, marginLeft: 5}}>Senha</Text>
+                </View>
 
-                    <View style={{width: 335}}>
-                        <Text style={{fontSize: 14,bottom: 2}}>Senha</Text>
-                    </View>
-
-                    <TextInput 
-                        style={styles.inputs} 
-                        placeholder="Password"
-                        placeholderTextColor="#9a73ef"
-                        returnKeyType='go'
-                        secureTextEntry
-                        autoCorrect={false}
-                    >
+                <TextInput 
+                    style={styles.inputs} 
+                    placeholder="Password"
+                    placeholderTextColor="#9a73ef"
+                    returnKeyType='go'
+                    secureTextEntry
+                    autoCorrect={false}
+                >
                         
-                    </TextInput>
+                </TextInput>
 
-                    <View style={{width: 335}}>    
-                        <TouchableOpacity style={{top: -10,marginBottom: 20}}>
-                            <Text style={styles.links}>Esqueci minha senha</Text>
-                        </TouchableOpacity>
-                    </View>
+                <View style={{width: 335}}>    
+                    <TouchableOpacity style={{top: -10,marginBottom: 20}}>
+                        <Text style={styles.links}>Esqueci minha senha</Text>
+                    </TouchableOpacity>
+                </View>
 
+
+                <View style={{ alignItems:'center'}}>
+                        
                     <Botao
                         nome = "Entrar"
                         acao = {"Pedidos"}
@@ -45,6 +47,7 @@ export default props => {
                         cor = "#ffffff"
                         fonte = {18}
                     />
+                
 
                     <Text style={{marginTop: 50, marginBottom: 10, textAlign:'center', fontSize: 16, fontWeight: 'bold'}} >Não tem uma conta?</Text>
 
@@ -55,7 +58,7 @@ export default props => {
                         cor = "#fe671f"
                         fonte = {18}
                     />
-
+                </View>
                     <TouchableOpacity style={{alignItems:'center', marginTop: 50}}>
                         <Text style={styles.links}>Termos de Serviço</Text>
                     </TouchableOpacity>
@@ -63,6 +66,7 @@ export default props => {
                     <TouchableOpacity style={{alignItems:'center', marginBottom: 50}}>
                         <Text style={styles.links}>Politica de Privacidade</Text>
                     </TouchableOpacity>
+                
             </View>
         </View>
     )
@@ -74,7 +78,7 @@ const styles = StyleSheet.create({
         width: '100%',
         justifyContent: 'space-around',
         alignItems:'center',
-        alignContent: 'center',
+        //alignContent: 'center',
         backgroundColor: '#fff3ee',
         opacity: 1
     },
@@ -93,7 +97,8 @@ const styles = StyleSheet.create({
         fontSize: 15,
         fontWeight: 'bold',
         textDecorationLine: 'underline',
-        marginTop:5
+        marginTop:5,
+        marginLeft: 5
     },
     imagem: {
         alignSelf:'center',
@@ -102,6 +107,7 @@ const styles = StyleSheet.create({
         width: 140
     },
     txt:{
+        marginLeft:10,
         textAlign: 'left'
     }
 })
